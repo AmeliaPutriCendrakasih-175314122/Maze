@@ -12,6 +12,7 @@ import java.awt.Color;
  * @author user only
  */
 public class Sel {
+
     private int posisiX; // nomor baris, dimulai dari nol (0)
     private int posisiY; // nomor kolom, dimulai dari nol (0)
     private int lebar;
@@ -46,7 +47,6 @@ public class Sel {
         this.warna = warna;
     }
 
-    
     /**
      * Fungsi mengecek sel ada di batas kiri
      *
